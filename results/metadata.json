@@ -1,0 +1,88 @@
+{
+  "title": "Sample-Efficient Molecular Conformation Search with Bayesian Optimization",
+  "smiles": "CCCCC",
+  "force_field": "MMFF94",
+  "geometry_seed": 2026,
+  "geometry_relaxed": false,
+  "torsion_atom_indices": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "grid_degrees": [
+    -180.0,
+    -170.0,
+    -160.0,
+    -150.0,
+    -140.0,
+    -130.0,
+    -120.0,
+    -110.0,
+    -100.0,
+    -90.0,
+    -80.0,
+    -70.0,
+    -60.0,
+    -50.0,
+    -40.0,
+    -30.0,
+    -20.0,
+    -10.0,
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0,
+    110.0,
+    120.0,
+    130.0,
+    140.0,
+    150.0,
+    160.0,
+    170.0
+  ],
+  "candidate_count": 1296,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "budget": 50,
+  "shared_initial_evaluations": 10,
+  "search_energy_evaluations": 500,
+  "reference_energy_evaluations": 1296,
+  "reference_minimum_kcal_mol": 7.8907608867045855,
+  "reference_minimum_angles_deg": [
+    -180.0,
+    -180.0
+  ],
+  "reference_runtime_seconds": 0.09660266665741801,
+  "gp_convergence_warning_count": 1,
+  "python": "3.14.5",
+  "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "rdkit": "2026.3.6",
+    "threadpoolctl": "3.7.0"
+  }
+}
